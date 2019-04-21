@@ -1,0 +1,634 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BankAccountsList snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    data={
+        Array [
+            Object {
+              "accountHolderName": "Test1",
+              "accountNumber": "1234567",
+              "accountType": "Savings",
+              "bank": Object {
+                "id": "1",
+                "name": "Bank1",
+              },
+              "branch": Object {
+                "id": "1",
+                "name": "Branch1",
+              },
+              "createdAt": 2019-04-20T16:00:00.000Z,
+              "employeeName": "Employee1",
+              "employeeNumber": "123456789012345",
+              "id": "1",
+              "updatedAt": 2019-04-20T16:00:00.000Z,
+            },
+            Object {
+              "accountHolderName": "Test2",
+              "accountNumber": "1234567",
+              "accountType": "Checking",
+              "bank": Object {
+                "id": "2",
+                "name": "Bank2",
+              },
+              "branch": Object {
+                "id": "2",
+                "name": "Branch2",
+              },
+              "createdAt": 2019-04-20T16:00:00.000Z,
+              "employeeName": "Employee2",
+              "employeeNumber": "123456789012345",
+              "id": "2",
+              "updatedAt": 2019-04-20T16:00:00.000Z,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <div
+        className="ag-theme-bootstrap"
+        style={
+                Object {
+                        "height": "calc(100% - 100px)",
+                        "width": "100%",
+                      }
+        }
+>
+        <AgGridReact
+                columnDefs={
+                        Array [
+                                Object {
+                                  "field": "accountHolderName",
+                                  "headerName": "Account Holder Name",
+                                },
+                                Object {
+                                  "field": "accountType",
+                                  "headerName": "Account Type",
+                                },
+                                Object {
+                                  "field": "accountNumber",
+                                  "filter": "agNumberColumnFilter",
+                                  "headerName": "Account Number",
+                                },
+                                Object {
+                                  "field": "employeeName",
+                                  "headerName": "Employee Name",
+                                },
+                                Object {
+                                  "field": "employeeNumber",
+                                  "filter": "agNumberColumnFilter",
+                                  "headerName": "Employee Number",
+                                },
+                                Object {
+                                  "field": "updatedAt",
+                                  "filter": "agDateColumnFilter",
+                                  "headerName": "Updated At",
+                                },
+                              ]
+                }
+                defaultColDef={
+                        Object {
+                                "filter": true,
+                                "sortable": true,
+                              }
+                }
+                rowData={
+                        Array [
+                                Object {
+                                  "accountHolderName": "Test1",
+                                  "accountNumber": "1234567",
+                                  "accountType": "Savings",
+                                  "bank": Object {
+                                    "id": "1",
+                                    "name": "Bank1",
+                                  },
+                                  "branch": Object {
+                                    "id": "1",
+                                    "name": "Branch1",
+                                  },
+                                  "createdAt": 2019-04-20T16:00:00.000Z,
+                                  "employeeName": "Employee1",
+                                  "employeeNumber": "123456789012345",
+                                  "id": "1",
+                                  "updatedAt": 2019-04-20T16:00:00.000Z,
+                                },
+                                Object {
+                                  "accountHolderName": "Test2",
+                                  "accountNumber": "1234567",
+                                  "accountType": "Checking",
+                                  "bank": Object {
+                                    "id": "2",
+                                    "name": "Bank2",
+                                  },
+                                  "branch": Object {
+                                    "id": "2",
+                                    "name": "Branch2",
+                                  },
+                                  "createdAt": 2019-04-20T16:00:00.000Z,
+                                  "employeeName": "Employee2",
+                                  "employeeNumber": "123456789012345",
+                                  "id": "2",
+                                  "updatedAt": 2019-04-20T16:00:00.000Z,
+                                },
+                              ]
+                }
+        />
+</div>,
+      "className": "h-100 p-3",
+      "fluid": true,
+      "tag": "div",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <AgGridReact
+          columnDefs={
+                    Array [
+                              Object {
+                                "field": "accountHolderName",
+                                "headerName": "Account Holder Name",
+                              },
+                              Object {
+                                "field": "accountType",
+                                "headerName": "Account Type",
+                              },
+                              Object {
+                                "field": "accountNumber",
+                                "filter": "agNumberColumnFilter",
+                                "headerName": "Account Number",
+                              },
+                              Object {
+                                "field": "employeeName",
+                                "headerName": "Employee Name",
+                              },
+                              Object {
+                                "field": "employeeNumber",
+                                "filter": "agNumberColumnFilter",
+                                "headerName": "Employee Number",
+                              },
+                              Object {
+                                "field": "updatedAt",
+                                "filter": "agDateColumnFilter",
+                                "headerName": "Updated At",
+                              },
+                            ]
+          }
+          defaultColDef={
+                    Object {
+                              "filter": true,
+                              "sortable": true,
+                            }
+          }
+          rowData={
+                    Array [
+                              Object {
+                                "accountHolderName": "Test1",
+                                "accountNumber": "1234567",
+                                "accountType": "Savings",
+                                "bank": Object {
+                                  "id": "1",
+                                  "name": "Bank1",
+                                },
+                                "branch": Object {
+                                  "id": "1",
+                                  "name": "Branch1",
+                                },
+                                "createdAt": 2019-04-20T16:00:00.000Z,
+                                "employeeName": "Employee1",
+                                "employeeNumber": "123456789012345",
+                                "id": "1",
+                                "updatedAt": 2019-04-20T16:00:00.000Z,
+                              },
+                              Object {
+                                "accountHolderName": "Test2",
+                                "accountNumber": "1234567",
+                                "accountType": "Checking",
+                                "bank": Object {
+                                  "id": "2",
+                                  "name": "Bank2",
+                                },
+                                "branch": Object {
+                                  "id": "2",
+                                  "name": "Branch2",
+                                },
+                                "createdAt": 2019-04-20T16:00:00.000Z,
+                                "employeeName": "Employee2",
+                                "employeeNumber": "123456789012345",
+                                "id": "2",
+                                "updatedAt": 2019-04-20T16:00:00.000Z,
+                              },
+                            ]
+          }
+/>,
+        "className": "ag-theme-bootstrap",
+        "style": Object {
+          "height": "calc(100% - 100px)",
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "columnDefs": Array [
+            Object {
+              "field": "accountHolderName",
+              "headerName": "Account Holder Name",
+            },
+            Object {
+              "field": "accountType",
+              "headerName": "Account Type",
+            },
+            Object {
+              "field": "accountNumber",
+              "filter": "agNumberColumnFilter",
+              "headerName": "Account Number",
+            },
+            Object {
+              "field": "employeeName",
+              "headerName": "Employee Name",
+            },
+            Object {
+              "field": "employeeNumber",
+              "filter": "agNumberColumnFilter",
+              "headerName": "Employee Number",
+            },
+            Object {
+              "field": "updatedAt",
+              "filter": "agDateColumnFilter",
+              "headerName": "Updated At",
+            },
+          ],
+          "defaultColDef": Object {
+            "filter": true,
+            "sortable": true,
+          },
+          "rowData": Array [
+            Object {
+              "accountHolderName": "Test1",
+              "accountNumber": "1234567",
+              "accountType": "Savings",
+              "bank": Object {
+                "id": "1",
+                "name": "Bank1",
+              },
+              "branch": Object {
+                "id": "1",
+                "name": "Branch1",
+              },
+              "createdAt": 2019-04-20T16:00:00.000Z,
+              "employeeName": "Employee1",
+              "employeeNumber": "123456789012345",
+              "id": "1",
+              "updatedAt": 2019-04-20T16:00:00.000Z,
+            },
+            Object {
+              "accountHolderName": "Test2",
+              "accountNumber": "1234567",
+              "accountType": "Checking",
+              "bank": Object {
+                "id": "2",
+                "name": "Bank2",
+              },
+              "branch": Object {
+                "id": "2",
+                "name": "Branch2",
+              },
+              "createdAt": 2019-04-20T16:00:00.000Z,
+              "employeeName": "Employee2",
+              "employeeNumber": "123456789012345",
+              "id": "2",
+              "updatedAt": 2019-04-20T16:00:00.000Z,
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <div
+          className="ag-theme-bootstrap"
+          style={
+                    Object {
+                              "height": "calc(100% - 100px)",
+                              "width": "100%",
+                            }
+          }
+>
+          <AgGridReact
+                    columnDefs={
+                              Array [
+                                        Object {
+                                          "field": "accountHolderName",
+                                          "headerName": "Account Holder Name",
+                                        },
+                                        Object {
+                                          "field": "accountType",
+                                          "headerName": "Account Type",
+                                        },
+                                        Object {
+                                          "field": "accountNumber",
+                                          "filter": "agNumberColumnFilter",
+                                          "headerName": "Account Number",
+                                        },
+                                        Object {
+                                          "field": "employeeName",
+                                          "headerName": "Employee Name",
+                                        },
+                                        Object {
+                                          "field": "employeeNumber",
+                                          "filter": "agNumberColumnFilter",
+                                          "headerName": "Employee Number",
+                                        },
+                                        Object {
+                                          "field": "updatedAt",
+                                          "filter": "agDateColumnFilter",
+                                          "headerName": "Updated At",
+                                        },
+                                      ]
+                    }
+                    defaultColDef={
+                              Object {
+                                        "filter": true,
+                                        "sortable": true,
+                                      }
+                    }
+                    rowData={
+                              Array [
+                                        Object {
+                                          "accountHolderName": "Test1",
+                                          "accountNumber": "1234567",
+                                          "accountType": "Savings",
+                                          "bank": Object {
+                                            "id": "1",
+                                            "name": "Bank1",
+                                          },
+                                          "branch": Object {
+                                            "id": "1",
+                                            "name": "Branch1",
+                                          },
+                                          "createdAt": 2019-04-20T16:00:00.000Z,
+                                          "employeeName": "Employee1",
+                                          "employeeNumber": "123456789012345",
+                                          "id": "1",
+                                          "updatedAt": 2019-04-20T16:00:00.000Z,
+                                        },
+                                        Object {
+                                          "accountHolderName": "Test2",
+                                          "accountNumber": "1234567",
+                                          "accountType": "Checking",
+                                          "bank": Object {
+                                            "id": "2",
+                                            "name": "Bank2",
+                                          },
+                                          "branch": Object {
+                                            "id": "2",
+                                            "name": "Branch2",
+                                          },
+                                          "createdAt": 2019-04-20T16:00:00.000Z,
+                                          "employeeName": "Employee2",
+                                          "employeeNumber": "123456789012345",
+                                          "id": "2",
+                                          "updatedAt": 2019-04-20T16:00:00.000Z,
+                                        },
+                                      ]
+                    }
+          />
+</div>,
+        "className": "h-100 p-3",
+        "fluid": true,
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <AgGridReact
+            columnDefs={
+                        Array [
+                                    Object {
+                                      "field": "accountHolderName",
+                                      "headerName": "Account Holder Name",
+                                    },
+                                    Object {
+                                      "field": "accountType",
+                                      "headerName": "Account Type",
+                                    },
+                                    Object {
+                                      "field": "accountNumber",
+                                      "filter": "agNumberColumnFilter",
+                                      "headerName": "Account Number",
+                                    },
+                                    Object {
+                                      "field": "employeeName",
+                                      "headerName": "Employee Name",
+                                    },
+                                    Object {
+                                      "field": "employeeNumber",
+                                      "filter": "agNumberColumnFilter",
+                                      "headerName": "Employee Number",
+                                    },
+                                    Object {
+                                      "field": "updatedAt",
+                                      "filter": "agDateColumnFilter",
+                                      "headerName": "Updated At",
+                                    },
+                                  ]
+            }
+            defaultColDef={
+                        Object {
+                                    "filter": true,
+                                    "sortable": true,
+                                  }
+            }
+            rowData={
+                        Array [
+                                    Object {
+                                      "accountHolderName": "Test1",
+                                      "accountNumber": "1234567",
+                                      "accountType": "Savings",
+                                      "bank": Object {
+                                        "id": "1",
+                                        "name": "Bank1",
+                                      },
+                                      "branch": Object {
+                                        "id": "1",
+                                        "name": "Branch1",
+                                      },
+                                      "createdAt": 2019-04-20T16:00:00.000Z,
+                                      "employeeName": "Employee1",
+                                      "employeeNumber": "123456789012345",
+                                      "id": "1",
+                                      "updatedAt": 2019-04-20T16:00:00.000Z,
+                                    },
+                                    Object {
+                                      "accountHolderName": "Test2",
+                                      "accountNumber": "1234567",
+                                      "accountType": "Checking",
+                                      "bank": Object {
+                                        "id": "2",
+                                        "name": "Bank2",
+                                      },
+                                      "branch": Object {
+                                        "id": "2",
+                                        "name": "Branch2",
+                                      },
+                                      "createdAt": 2019-04-20T16:00:00.000Z,
+                                      "employeeName": "Employee2",
+                                      "employeeNumber": "123456789012345",
+                                      "id": "2",
+                                      "updatedAt": 2019-04-20T16:00:00.000Z,
+                                    },
+                                  ]
+            }
+/>,
+          "className": "ag-theme-bootstrap",
+          "style": Object {
+            "height": "calc(100% - 100px)",
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "columnDefs": Array [
+              Object {
+                "field": "accountHolderName",
+                "headerName": "Account Holder Name",
+              },
+              Object {
+                "field": "accountType",
+                "headerName": "Account Type",
+              },
+              Object {
+                "field": "accountNumber",
+                "filter": "agNumberColumnFilter",
+                "headerName": "Account Number",
+              },
+              Object {
+                "field": "employeeName",
+                "headerName": "Employee Name",
+              },
+              Object {
+                "field": "employeeNumber",
+                "filter": "agNumberColumnFilter",
+                "headerName": "Employee Number",
+              },
+              Object {
+                "field": "updatedAt",
+                "filter": "agDateColumnFilter",
+                "headerName": "Updated At",
+              },
+            ],
+            "defaultColDef": Object {
+              "filter": true,
+              "sortable": true,
+            },
+            "rowData": Array [
+              Object {
+                "accountHolderName": "Test1",
+                "accountNumber": "1234567",
+                "accountType": "Savings",
+                "bank": Object {
+                  "id": "1",
+                  "name": "Bank1",
+                },
+                "branch": Object {
+                  "id": "1",
+                  "name": "Branch1",
+                },
+                "createdAt": 2019-04-20T16:00:00.000Z,
+                "employeeName": "Employee1",
+                "employeeNumber": "123456789012345",
+                "id": "1",
+                "updatedAt": 2019-04-20T16:00:00.000Z,
+              },
+              Object {
+                "accountHolderName": "Test2",
+                "accountNumber": "1234567",
+                "accountType": "Checking",
+                "bank": Object {
+                  "id": "2",
+                  "name": "Bank2",
+                },
+                "branch": Object {
+                  "id": "2",
+                  "name": "Branch2",
+                },
+                "createdAt": 2019-04-20T16:00:00.000Z,
+                "employeeName": "Employee2",
+                "employeeNumber": "123456789012345",
+                "id": "2",
+                "updatedAt": 2019-04-20T16:00:00.000Z,
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

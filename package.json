@@ -1,0 +1,51 @@
+{
+  "name": "fixer-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/graphql": "^14.2.0",
+    "@types/react-router-dom": "^4.3.2",
+    "@types/reactstrap": "^8.0.1",
+    "@types/validatorjs": "^3.15.0",
+    "ag-grid-community": "^20.2.0",
+    "ag-grid-react": "^20.2.0",
+    "apollo-boost": "^0.3.1",
+    "bootstrap": "^4.3.1",
+    "graphql": "^14.2.1",
+    "graphql-tag": "^2.10.1",
+    "immer": "^3.1.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.4",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts-ts": "3.1.0",
+    "reactstrap": "^8.0.0",
+    "validatorjs": "^3.15.1"
+  },
+  "scripts": {
+    "build:css": "node-sass src/ -o src/ ",
+    "watch:css": "npm run build:css && node-sass src/ -o src/ -w -r",
+    "start:js": "react-scripts-ts start",
+    "start": "npm-run-all -p watch:css start:js",
+    "build:js": "react-scripts-ts build",
+    "build": "npm-run-all build:*",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.9.1",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.5",
+    "@types/node-sass": "^4.11.0",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "react-test-renderer": "^16.8.6",
+    "typescript": "^3.4.3"
+  }
+}
