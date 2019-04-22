@@ -13,3 +13,8 @@ Apollo Server with Express.
 #### Testing
 
 * `yarn test`
+
+## Hours
+- Frontend: 10 hours
+- Backend: 5 hours
+- Deployment: 2 hours
